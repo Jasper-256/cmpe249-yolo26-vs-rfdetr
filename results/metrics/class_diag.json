@@ -1,0 +1,123 @@
+{
+ "yolo26m": {
+  "Tram": {
+   "n_gt": 511,
+   "frac_gt_covered_by_class": {
+    "<none>": 0.569,
+    "train": 0.339,
+    "bus": 0.121,
+    "truck": 0.002
+   }
+  },
+  "Truck": {
+   "n_gt": 1094,
+   "frac_gt_covered_by_class": {
+    "truck": 0.458,
+    "<none>": 0.322,
+    "bus": 0.238,
+    "train": 0.082,
+    "car": 0.002
+   }
+  },
+  "Van": {
+   "n_gt": 2914,
+   "frac_gt_covered_by_class": {
+    "truck": 0.363,
+    "car": 0.356,
+    "<none>": 0.302,
+    "bus": 0.07
+   }
+  },
+  "Pedestrian": {
+   "n_gt": 4487,
+   "frac_gt_covered_by_class": {
+    "person": 0.676,
+    "<none>": 0.323,
+    "car": 0.001,
+    "truck": 0.0,
+    "27": 0.0,
+    "bicycle": 0.0
+   }
+  },
+  "Cyclist": {
+   "n_gt": 1627,
+   "frac_gt_covered_by_class": {
+    "<none>": 0.615,
+    "person": 0.345,
+    "bicycle": 0.036,
+    "motorcycle": 0.014,
+    "car": 0.005
+   }
+  },
+  "pedestrian_box_ratio": {
+   "n": 2930,
+   "w": 0.9305568317016315,
+   "h": 0.942169036442529,
+   "w_iqr": [
+    0.8363700710894717,
+    1.01859688862662
+   ]
+  }
+ },
+ "rfdetr-medium": {
+  "Tram": {
+   "n_gt": 511,
+   "frac_gt_covered_by_class": {
+    "train": 0.487,
+    "<none>": 0.44,
+    "bus": 0.141,
+    "truck": 0.016
+   }
+  },
+  "Truck": {
+   "n_gt": 1094,
+   "frac_gt_covered_by_class": {
+    "truck": 0.628,
+    "train": 0.255,
+    "<none>": 0.144,
+    "bus": 0.082,
+    "car": 0.004
+   }
+  },
+  "Van": {
+   "n_gt": 2914,
+   "frac_gt_covered_by_class": {
+    "truck": 0.605,
+    "car": 0.412,
+    "<none>": 0.177,
+    "bus": 0.051,
+    "train": 0.001
+   }
+  },
+  "Pedestrian": {
+   "n_gt": 4487,
+   "frac_gt_covered_by_class": {
+    "person": 0.713,
+    "<none>": 0.285,
+    "car": 0.002,
+    "bicycle": 0.001,
+    "truck": 0.0,
+    "64": 0.0
+   }
+  },
+  "Cyclist": {
+   "n_gt": 1627,
+   "frac_gt_covered_by_class": {
+    "<none>": 0.553,
+    "person": 0.41,
+    "bicycle": 0.047,
+    "motorcycle": 0.007,
+    "car": 0.004
+   }
+  },
+  "pedestrian_box_ratio": {
+   "n": 3064,
+   "w": 0.9806183664051678,
+   "h": 0.9414349649210654,
+   "w_iqr": [
+    0.882691274210812,
+    1.096774193548387
+   ]
+  }
+ }
+}

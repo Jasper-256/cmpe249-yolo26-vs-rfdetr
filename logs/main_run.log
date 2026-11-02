@@ -1,0 +1,261 @@
+yolo26n coco: 0/5000  median e2e 2.82 ms
+yolo26n coco: 1000/5000  median e2e 2.87 ms
+yolo26n coco: 2000/5000  median e2e 2.87 ms
+yolo26n coco: 3000/5000  median e2e 2.87 ms
+yolo26n coco: 4000/5000  median e2e 2.87 ms
+{"model": "yolo26n", "dataset": "coco", "n_images": 5000, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 2.8708599929814227, "e2e_mean_ms": 8.70410022464639, "e2e_p90_ms": 3.065136894292664, "peak_mem_MB": 48.4150390625, "wall_s": 50.884254693984985, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26s coco: 0/5000  median e2e 2.86 ms
+yolo26s coco: 1000/5000  median e2e 2.90 ms
+yolo26s coco: 2000/5000  median e2e 2.90 ms
+yolo26s coco: 3000/5000  median e2e 2.90 ms
+yolo26s coco: 4000/5000  median e2e 2.90 ms
+{"model": "yolo26s", "dataset": "coco", "n_images": 5000, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 2.903231499658432, "e2e_mean_ms": 7.8851872366067255, "e2e_p90_ms": 3.0986270066932775, "peak_mem_MB": 71.32373046875, "wall_s": 46.805351972579956, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26m coco: 0/5000  median e2e 3.12 ms
+yolo26m coco: 1000/5000  median e2e 3.33 ms
+yolo26m coco: 2000/5000  median e2e 3.23 ms
+yolo26m coco: 3000/5000  median e2e 3.23 ms
+yolo26m coco: 4000/5000  median e2e 3.23 ms
+{"model": "yolo26m", "dataset": "coco", "n_images": 5000, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 3.2333120034309104, "e2e_mean_ms": 7.5449078269652095, "e2e_p90_ms": 3.598750097444281, "peak_mem_MB": 110.99169921875, "wall_s": 44.70574927330017, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26l coco: 0/5000  median e2e 4.01 ms
+yolo26l coco: 1000/5000  median e2e 4.22 ms
+yolo26l coco: 2000/5000  median e2e 4.18 ms
+yolo26l coco: 3000/5000  median e2e 4.15 ms
+yolo26l coco: 4000/5000  median e2e 4.16 ms
+{"model": "yolo26l", "dataset": "coco", "n_images": 5000, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 4.171278502326459, "e2e_mean_ms": 8.428692318615504, "e2e_p90_ms": 4.494290002912749, "peak_mem_MB": 126.23388671875, "wall_s": 49.10051131248474, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26x coco: 0/5000  median e2e 6.22 ms
+yolo26x coco: 1000/5000  median e2e 6.49 ms
+yolo26x coco: 2000/5000  median e2e 6.49 ms
+yolo26x coco: 3000/5000  median e2e 6.49 ms
+yolo26x coco: 4000/5000  median e2e 6.49 ms
+{"model": "yolo26x", "dataset": "coco", "n_images": 5000, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 6.490908497653436, "e2e_mean_ms": 10.725489611335798, "e2e_p90_ms": 6.942704199173022, "peak_mem_MB": 208.59912109375, "wall_s": 60.60975885391235, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+[2026-11-01 16:50:32] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-nano.pth already exists with correct MD5 hash.
+[2026-11-01 16:50:32] [WARNING] rf-detr - Using a different number of positional encodings than DINOv2, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 16:50:32] [WARNING] rf-detr - Using patch size 16 instead of 14, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 16:50:32] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-nano.pth already exists with correct MD5 hash.
+rfdetr-nano coco: 0/5000  median e2e 4.09 ms
+[2026-11-01 16:50:38] [WARNING] rf-detr - predict() encountered unmapped class_id(s): [np.int64(30)] — mapping to empty string
+rfdetr-nano coco: 1000/5000  median e2e 4.12 ms
+rfdetr-nano coco: 2000/5000  median e2e 4.14 ms
+rfdetr-nano coco: 3000/5000  median e2e 4.14 ms
+rfdetr-nano coco: 4000/5000  median e2e 4.14 ms
+{"model": "rfdetr-nano", "dataset": "coco", "n_images": 5000, "conf": 0.001, "max_det": 300, "imgsz": 384, "e2e_median_ms": 4.135069997573737, "e2e_mean_ms": 4.5450508707901465, "e2e_p90_ms": 4.225001001032069, "peak_mem_MB": 204.28369140625, "wall_s": 30.158210039138794, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+[2026-11-01 16:51:11] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-small.pth already exists with correct MD5 hash.
+[2026-11-01 16:51:11] [WARNING] rf-detr - Using a different number of positional encodings than DINOv2, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 16:51:11] [WARNING] rf-detr - Using patch size 16 instead of 14, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 16:51:12] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-small.pth already exists with correct MD5 hash.
+rfdetr-small coco: 0/5000  median e2e 4.82 ms
+[2026-11-01 16:51:16] [WARNING] rf-detr - predict() encountered unmapped class_id(s): [np.int64(66)] — mapping to empty string
+rfdetr-small coco: 1000/5000  median e2e 4.87 ms
+rfdetr-small coco: 2000/5000  median e2e 4.88 ms
+rfdetr-small coco: 3000/5000  median e2e 4.88 ms
+rfdetr-small coco: 4000/5000  median e2e 4.87 ms
+{"model": "rfdetr-small", "dataset": "coco", "n_images": 5000, "conf": 0.001, "max_det": 300, "imgsz": 512, "e2e_median_ms": 4.871625009400304, "e2e_mean_ms": 5.290737955705845, "e2e_p90_ms": 4.989967089204583, "peak_mem_MB": 223.84619140625, "wall_s": 33.857165813446045, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+[2026-11-01 16:51:54] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-medium.pth already exists with correct MD5 hash.
+[2026-11-01 16:51:54] [WARNING] rf-detr - Using a different number of positional encodings than DINOv2, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 16:51:54] [WARNING] rf-detr - Using patch size 16 instead of 14, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 16:51:55] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-medium.pth already exists with correct MD5 hash.
+rfdetr-medium coco: 0/5000  median e2e 5.33 ms
+[2026-11-01 16:52:02] [WARNING] rf-detr - predict() encountered unmapped class_id(s): [np.int64(30)] — mapping to empty string
+rfdetr-medium coco: 1000/5000  median e2e 5.38 ms
+rfdetr-medium coco: 2000/5000  median e2e 5.39 ms
+rfdetr-medium coco: 3000/5000  median e2e 5.39 ms
+rfdetr-medium coco: 4000/5000  median e2e 5.39 ms
+{"model": "rfdetr-medium", "dataset": "coco", "n_images": 5000, "conf": 0.001, "max_det": 300, "imgsz": 576, "e2e_median_ms": 5.390548496507108, "e2e_mean_ms": 5.802892006610636, "e2e_p90_ms": 5.486915001529269, "peak_mem_MB": 237.921875, "wall_s": 36.42492055892944, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+[2026-11-01 16:52:40] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-large-2026.pth already exists with correct MD5 hash.
+[2026-11-01 16:52:40] [WARNING] rf-detr - Using a different number of positional encodings than DINOv2, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 16:52:40] [WARNING] rf-detr - Using patch size 16 instead of 14, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 16:52:40] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-large-2026.pth already exists with correct MD5 hash.
+rfdetr-large coco: 0/5000  median e2e 5.99 ms
+[2026-11-01 16:52:47] [WARNING] rf-detr - predict() encountered unmapped class_id(s): [np.int64(30), np.int64(30)] — mapping to empty string
+rfdetr-large coco: 1000/5000  median e2e 5.97 ms
+rfdetr-large coco: 2000/5000  median e2e 5.96 ms
+rfdetr-large coco: 3000/5000  median e2e 5.97 ms
+rfdetr-large coco: 4000/5000  median e2e 5.96 ms
+{"model": "rfdetr-large", "dataset": "coco", "n_images": 5000, "conf": 0.001, "max_det": 300, "imgsz": 704, "e2e_median_ms": 5.968457997369114, "e2e_mean_ms": 6.320532757751062, "e2e_p90_ms": 6.088834094407503, "peak_mem_MB": 254.58984375, "wall_s": 38.9964234828949, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+rfdetr-large           AP  56.5 AP50  75.1 AP75  61.3 APs  38.9 APm  61.1 APl  74.0 AR100  74.2
+rfdetr-medium          AP  54.6 AP50  73.5 AP75  59.0 APs  35.8 APm  59.7 APl  73.6 AR100  72.4
+rfdetr-nano            AP  48.0 AP50  67.1 AP75  51.1 APs  25.0 APm  53.1 APl  70.9 AR100  65.1
+rfdetr-small           AP  52.8 AP50  72.0 AP75  56.9 APs  31.8 APm  58.2 APl  73.0 AR100  70.4
+yolo26l                AP  53.8 AP50  70.7 AP75  58.8 APs  37.3 APm  58.0 APl  69.5 AR100  73.1
+yolo26l-nms            AP  53.9 AP50  71.0 AP75  58.8 APs  35.7 APm  58.2 APl  69.9 AR100  69.5
+yolo26m                AP  52.2 AP50  69.3 AP75  57.0 APs  35.5 APm  56.8 APl  68.3 AR100  72.1
+yolo26m-nms            AP  52.2 AP50  69.5 AP75  56.8 APs  35.5 APm  57.1 APl  68.1 AR100  68.5
+yolo26n                AP  40.1 AP50  55.6 AP75  43.5 APs  19.7 APm  44.1 APl  58.0 AR100  61.3
+yolo26n-nms            AP  40.2 AP50  55.9 AP75  43.5 APs  19.5 APm  44.2 APl  58.4 AR100  57.1
+yolo26s                AP  47.4 AP50  63.8 AP75  51.6 APs  29.4 APm  52.0 APl  64.0 AR100  68.0
+yolo26s-nms            AP  47.4 AP50  64.0 AP75  51.4 APs  29.1 APm  51.9 APl  64.2 AR100  64.0
+yolo26x                AP  56.5 AP50  73.6 AP75  61.9 APs  40.7 APm  60.7 APl  72.4 AR100  74.7
+yolo26x-nms            AP  56.5 AP50  73.7 AP75  61.7 APs  40.6 APm  61.0 APl  72.3 AR100  71.4
+7481 images 101586 annotations
+yolo26n kitti: 0/7481  median e2e 2.89 ms
+yolo26n kitti: 1000/7481  median e2e 2.86 ms
+yolo26n kitti: 2000/7481  median e2e 2.88 ms
+yolo26n kitti: 3000/7481  median e2e 2.88 ms
+yolo26n kitti: 4000/7481  median e2e 2.87 ms
+yolo26n kitti: 5000/7481  median e2e 2.87 ms
+yolo26n kitti: 6000/7481  median e2e 2.87 ms
+yolo26n kitti: 7000/7481  median e2e 2.87 ms
+{"model": "yolo26n", "dataset": "kitti", "n_images": 7481, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 2.8699169924948364, "e2e_mean_ms": 2.9308521709268227, "e2e_p90_ms": 3.0144810007186607, "peak_mem_MB": 40.7666015625, "wall_s": 63.30669164657593, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26s kitti: 0/7481  median e2e 2.90 ms
+yolo26s kitti: 1000/7481  median e2e 2.88 ms
+yolo26s kitti: 2000/7481  median e2e 2.87 ms
+yolo26s kitti: 3000/7481  median e2e 2.87 ms
+yolo26s kitti: 4000/7481  median e2e 2.88 ms
+yolo26s kitti: 5000/7481  median e2e 2.88 ms
+yolo26s kitti: 6000/7481  median e2e 2.88 ms
+yolo26s kitti: 7000/7481  median e2e 2.87 ms
+{"model": "yolo26s", "dataset": "kitti", "n_images": 7481, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 2.8736039967043325, "e2e_mean_ms": 2.9057055128416907, "e2e_p90_ms": 2.9895939951529726, "peak_mem_MB": 57.58154296875, "wall_s": 63.35815477371216, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26m kitti: 0/7481  median e2e 3.17 ms
+yolo26m kitti: 1000/7481  median e2e 3.05 ms
+yolo26m kitti: 2000/7481  median e2e 3.04 ms
+yolo26m kitti: 3000/7481  median e2e 3.03 ms
+yolo26m kitti: 4000/7481  median e2e 3.03 ms
+yolo26m kitti: 5000/7481  median e2e 3.03 ms
+yolo26m kitti: 6000/7481  median e2e 3.03 ms
+yolo26m kitti: 7000/7481  median e2e 3.04 ms
+{"model": "yolo26m", "dataset": "kitti", "n_images": 7481, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 3.0384359997697175, "e2e_mean_ms": 3.147720160180198, "e2e_p90_ms": 3.1419529987033457, "peak_mem_MB": 85.18310546875, "wall_s": 64.43604946136475, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26l kitti: 0/7481  median e2e 4.38 ms
+yolo26l kitti: 1000/7481  median e2e 4.05 ms
+yolo26l kitti: 2000/7481  median e2e 4.04 ms
+yolo26l kitti: 3000/7481  median e2e 4.04 ms
+yolo26l kitti: 4000/7481  median e2e 4.04 ms
+yolo26l kitti: 5000/7481  median e2e 4.05 ms
+yolo26l kitti: 6000/7481  median e2e 4.04 ms
+yolo26l kitti: 7000/7481  median e2e 4.04 ms
+{"model": "yolo26l", "dataset": "kitti", "n_images": 7481, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 4.04464200255461, "e2e_mean_ms": 4.153268099541993, "e2e_p90_ms": 4.158887997618876, "peak_mem_MB": 96.00732421875, "wall_s": 71.88829135894775, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26x kitti: 0/7481  median e2e 4.56 ms
+yolo26x kitti: 1000/7481  median e2e 4.49 ms
+yolo26x kitti: 2000/7481  median e2e 4.50 ms
+yolo26x kitti: 3000/7481  median e2e 4.50 ms
+yolo26x kitti: 4000/7481  median e2e 4.50 ms
+yolo26x kitti: 5000/7481  median e2e 4.50 ms
+yolo26x kitti: 6000/7481  median e2e 4.50 ms
+yolo26x kitti: 7000/7481  median e2e 4.50 ms
+{"model": "yolo26x", "dataset": "kitti", "n_images": 7481, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 4.500276001635939, "e2e_mean_ms": 4.576197114532265, "e2e_p90_ms": 4.540301000815816, "peak_mem_MB": 164.62255859375, "wall_s": 74.71675562858582, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26n-nms kitti: 0/7481  median e2e 3.04 ms
+yolo26n-nms kitti: 1000/7481  median e2e 2.98 ms
+yolo26n-nms kitti: 2000/7481  median e2e 2.98 ms
+yolo26n-nms kitti: 3000/7481  median e2e 2.98 ms
+yolo26n-nms kitti: 4000/7481  median e2e 2.98 ms
+yolo26n-nms kitti: 5000/7481  median e2e 2.97 ms
+yolo26n-nms kitti: 6000/7481  median e2e 2.97 ms
+yolo26n-nms kitti: 7000/7481  median e2e 2.97 ms
+{"model": "yolo26n-nms", "dataset": "kitti", "n_images": 7481, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 2.964977000374347, "e2e_mean_ms": 3.009216469149417, "e2e_p90_ms": 3.019611001946032, "peak_mem_MB": 40.7666015625, "wall_s": 63.200921058654785, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26s-nms kitti: 0/7481  median e2e 3.06 ms
+yolo26s-nms kitti: 1000/7481  median e2e 2.98 ms
+yolo26s-nms kitti: 2000/7481  median e2e 2.97 ms
+yolo26s-nms kitti: 3000/7481  median e2e 2.97 ms
+yolo26s-nms kitti: 4000/7481  median e2e 2.97 ms
+yolo26s-nms kitti: 5000/7481  median e2e 2.97 ms
+yolo26s-nms kitti: 6000/7481  median e2e 2.97 ms
+yolo26s-nms kitti: 7000/7481  median e2e 2.97 ms
+{"model": "yolo26s-nms", "dataset": "kitti", "n_images": 7481, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 2.967952998005785, "e2e_mean_ms": 3.0699827343745483, "e2e_p90_ms": 3.0111439991742373, "peak_mem_MB": 57.58154296875, "wall_s": 63.03459024429321, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26m-nms kitti: 0/7481  median e2e 3.18 ms
+yolo26m-nms kitti: 1000/7481  median e2e 3.13 ms
+yolo26m-nms kitti: 2000/7481  median e2e 3.12 ms
+yolo26m-nms kitti: 3000/7481  median e2e 3.12 ms
+yolo26m-nms kitti: 4000/7481  median e2e 3.13 ms
+yolo26m-nms kitti: 5000/7481  median e2e 3.12 ms
+yolo26m-nms kitti: 6000/7481  median e2e 3.13 ms
+yolo26m-nms kitti: 7000/7481  median e2e 3.12 ms
+{"model": "yolo26m-nms", "dataset": "kitti", "n_images": 7481, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 3.125140006886795, "e2e_mean_ms": 3.197925714790392, "e2e_p90_ms": 3.1627909920644015, "peak_mem_MB": 85.18310546875, "wall_s": 63.72955942153931, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26l-nms kitti: 0/7481  median e2e 4.16 ms
+yolo26l-nms kitti: 1000/7481  median e2e 4.10 ms
+yolo26l-nms kitti: 2000/7481  median e2e 4.10 ms
+yolo26l-nms kitti: 3000/7481  median e2e 4.09 ms
+yolo26l-nms kitti: 4000/7481  median e2e 4.10 ms
+yolo26l-nms kitti: 5000/7481  median e2e 4.10 ms
+yolo26l-nms kitti: 6000/7481  median e2e 4.10 ms
+yolo26l-nms kitti: 7000/7481  median e2e 4.10 ms
+{"model": "yolo26l-nms", "dataset": "kitti", "n_images": 7481, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 4.09665000915993, "e2e_mean_ms": 4.163617464209125, "e2e_p90_ms": 4.133760987315327, "peak_mem_MB": 96.00732421875, "wall_s": 70.71758699417114, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26x-nms kitti: 0/7481  median e2e 4.72 ms
+yolo26x-nms kitti: 1000/7481  median e2e 4.66 ms
+yolo26x-nms kitti: 2000/7481  median e2e 4.66 ms
+yolo26x-nms kitti: 3000/7481  median e2e 4.66 ms
+yolo26x-nms kitti: 4000/7481  median e2e 4.66 ms
+yolo26x-nms kitti: 5000/7481  median e2e 4.66 ms
+yolo26x-nms kitti: 6000/7481  median e2e 4.66 ms
+yolo26x-nms kitti: 7000/7481  median e2e 4.66 ms
+{"model": "yolo26x-nms", "dataset": "kitti", "n_images": 7481, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 4.657272991607897, "e2e_mean_ms": 4.700891852943866, "e2e_p90_ms": 4.694062008638866, "peak_mem_MB": 164.62255859375, "wall_s": 74.94363856315613, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+[2026-11-01 17:10:28] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-nano.pth already exists with correct MD5 hash.
+[2026-11-01 17:10:28] [WARNING] rf-detr - Using a different number of positional encodings than DINOv2, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 17:10:28] [WARNING] rf-detr - Using patch size 16 instead of 14, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 17:10:28] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-nano.pth already exists with correct MD5 hash.
+rfdetr-nano kitti: 0/7481  median e2e 4.20 ms
+rfdetr-nano kitti: 1000/7481  median e2e 4.52 ms
+rfdetr-nano kitti: 2000/7481  median e2e 4.32 ms
+rfdetr-nano kitti: 3000/7481  median e2e 4.39 ms
+rfdetr-nano kitti: 4000/7481  median e2e 4.30 ms
+rfdetr-nano kitti: 5000/7481  median e2e 4.29 ms
+rfdetr-nano kitti: 6000/7481  median e2e 4.28 ms
+rfdetr-nano kitti: 7000/7481  median e2e 4.28 ms
+{"model": "rfdetr-nano", "dataset": "kitti", "n_images": 7481, "conf": 0.001, "max_det": 300, "imgsz": 384, "e2e_median_ms": 4.2729739943752065, "e2e_mean_ms": 4.833839864196043, "e2e_p90_ms": 5.11362700490281, "peak_mem_MB": 205.77197265625, "wall_s": 76.77058696746826, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+[2026-11-01 17:11:56] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-small.pth already exists with correct MD5 hash.
+[2026-11-01 17:11:56] [WARNING] rf-detr - Using a different number of positional encodings than DINOv2, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 17:11:56] [WARNING] rf-detr - Using patch size 16 instead of 14, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 17:11:56] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-small.pth already exists with correct MD5 hash.
+rfdetr-small kitti: 0/7481  median e2e 4.85 ms
+rfdetr-small kitti: 1000/7481  median e2e 4.97 ms
+rfdetr-small kitti: 2000/7481  median e2e 4.98 ms
+rfdetr-small kitti: 3000/7481  median e2e 4.94 ms
+rfdetr-small kitti: 4000/7481  median e2e 4.98 ms
+rfdetr-small kitti: 5000/7481  median e2e 4.99 ms
+rfdetr-small kitti: 6000/7481  median e2e 4.96 ms
+rfdetr-small kitti: 7000/7481  median e2e 4.95 ms
+{"model": "rfdetr-small", "dataset": "kitti", "n_images": 7481, "conf": 0.001, "max_det": 300, "imgsz": 512, "e2e_median_ms": 4.9432149971835315, "e2e_mean_ms": 5.362720834440272, "e2e_p90_ms": 5.310389999067411, "peak_mem_MB": 224.61279296875, "wall_s": 80.56150150299072, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+[2026-11-01 17:13:28] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-medium.pth already exists with correct MD5 hash.
+[2026-11-01 17:13:28] [WARNING] rf-detr - Using a different number of positional encodings than DINOv2, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 17:13:28] [WARNING] rf-detr - Using patch size 16 instead of 14, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 17:13:28] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-medium.pth already exists with correct MD5 hash.
+rfdetr-medium kitti: 0/7481  median e2e 5.40 ms
+rfdetr-medium kitti: 1000/7481  median e2e 5.48 ms
+rfdetr-medium kitti: 2000/7481  median e2e 5.48 ms
+rfdetr-medium kitti: 3000/7481  median e2e 5.48 ms
+rfdetr-medium kitti: 4000/7481  median e2e 5.48 ms
+rfdetr-medium kitti: 5000/7481  median e2e 5.48 ms
+rfdetr-medium kitti: 6000/7481  median e2e 5.48 ms
+rfdetr-medium kitti: 7000/7481  median e2e 5.49 ms
+{"model": "rfdetr-medium", "dataset": "kitti", "n_images": 7481, "conf": 0.001, "max_det": 300, "imgsz": 576, "e2e_median_ms": 5.4873849876457825, "e2e_mean_ms": 5.876060896217594, "e2e_p90_ms": 5.7662030012579635, "peak_mem_MB": 239.02783203125, "wall_s": 84.41618752479553, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+[2026-11-01 17:15:04] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-large-2026.pth already exists with correct MD5 hash.
+[2026-11-01 17:15:04] [WARNING] rf-detr - Using a different number of positional encodings than DINOv2, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 17:15:04] [WARNING] rf-detr - Using patch size 16 instead of 14, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 17:15:04] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-large-2026.pth already exists with correct MD5 hash.
+rfdetr-large kitti: 0/7481  median e2e 6.04 ms
+rfdetr-large kitti: 1000/7481  median e2e 6.00 ms
+rfdetr-large kitti: 2000/7481  median e2e 5.99 ms
+rfdetr-large kitti: 3000/7481  median e2e 6.00 ms
+rfdetr-large kitti: 4000/7481  median e2e 5.99 ms
+rfdetr-large kitti: 5000/7481  median e2e 5.99 ms
+rfdetr-large kitti: 6000/7481  median e2e 5.99 ms
+rfdetr-large kitti: 7000/7481  median e2e 5.99 ms
+{"model": "rfdetr-large", "dataset": "kitti", "n_images": 7481, "conf": 0.001, "max_det": 300, "imgsz": 704, "e2e_median_ms": 5.993945000227541, "e2e_mean_ms": 6.349909679777509, "e2e_p90_ms": 6.076029996620491, "peak_mem_MB": 255.59326171875, "wall_s": 87.90679121017456, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26m@1280 kitti: 0/7481  median e2e 4.93 ms
+yolo26m@1280 kitti: 1000/7481  median e2e 4.62 ms
+yolo26m@1280 kitti: 2000/7481  median e2e 4.60 ms
+yolo26m@1280 kitti: 3000/7481  median e2e 4.60 ms
+yolo26m@1280 kitti: 4000/7481  median e2e 4.60 ms
+yolo26m@1280 kitti: 5000/7481  median e2e 4.60 ms
+yolo26m@1280 kitti: 6000/7481  median e2e 4.60 ms
+yolo26m@1280 kitti: 7000/7481  median e2e 4.60 ms
+{"model": "yolo26m@1280", "dataset": "kitti", "n_images": 7481, "conf": 0.001, "max_det": 300, "imgsz": 1280, "e2e_median_ms": 4.602507993695326, "e2e_mean_ms": 4.781820767765005, "e2e_p90_ms": 4.921147003187798, "peak_mem_MB": 123.03759765625, "wall_s": 76.10772109031677, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+[2026-11-01 17:18:05] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-medium.pth already exists with correct MD5 hash.
+[2026-11-01 17:18:05] [WARNING] rf-detr - Using a different number of positional encodings than DINOv2, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 17:18:05] [WARNING] rf-detr - Using patch size 16 instead of 14, which means we're not loading DINOv2 backbone weights. This is not a problem if finetuning a pretrained RF-DETR model.
+[2026-11-01 17:18:06] [INFO] rf-detr - File /home/jas/.roboflow/models/rf-detr-medium.pth already exists with correct MD5 hash.
+Traceback (most recent call last):
+  File "/home/jas/Dev/cmpe-249/hw-2d-obj/scripts/predict.py", line 109, in <module>
+    main()
+  File "/home/jas/Dev/cmpe-249/hw-2d-obj/scripts/predict.py", line 81, in main
+    run(warm)
+  File "/home/jas/Dev/cmpe-249/hw-2d-obj/scripts/predict.py", line 71, in run
+    d = model.predict(cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB), threshold=CONF, shape=shape,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jas/Dev/cmpe-249/hw-2d-obj/.venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jas/Dev/cmpe-249/hw-2d-obj/.venv/lib/python3.12/site-packages/rfdetr/detr.py", line 428, in wrapper
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jas/Dev/cmpe-249/hw-2d-obj/.venv/lib/python3.12/site-packages/rfdetr/detr.py", line 3038, in predict
+    raise ValueError(
+ValueError: Resolution mismatch. Model was optimized for resolution 576x576, but got 320x1056. You can explicitly remove the optimized model by calling model.remove_optimized_model().

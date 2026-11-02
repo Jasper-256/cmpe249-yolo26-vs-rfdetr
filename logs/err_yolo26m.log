@@ -1,0 +1,3 @@
+yolo26m                  Car        F1 0.814 @thr 0.475  P 0.889 R 0.751  errors {'TP': 21581, 'duplicate': 211, 'ignored': 3606, 'loc': 1849, 'confusion': 5, 'background': 642}
+yolo26m                  Pedestrian F1 0.642 @thr 0.356  P 0.661 R 0.624  errors {'TP': 2798, 'duplicate': 40, 'ignored': 1129, 'loc': 461, 'confusion': 3, 'background': 928}
+yolo26m                  Cyclist    F1 0.466 @thr 0.174  P 0.569 R 0.395  errors {'TP': 643, 'duplicate': 24, 'ignored': 33, 'loc': 93, 'confusion': 234, 'background': 136}

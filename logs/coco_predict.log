@@ -1,0 +1,31 @@
+yolo26n coco: 0/5000  median e2e 3.08 ms
+yolo26n coco: 1000/5000  median e2e 2.99 ms
+yolo26n coco: 2000/5000  median e2e 2.98 ms
+yolo26n coco: 3000/5000  median e2e 2.98 ms
+yolo26n coco: 4000/5000  median e2e 2.98 ms
+{"model": "yolo26n", "dataset": "coco", "n_images": 5000, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 2.984993996506091, "e2e_mean_ms": 8.804377869638847, "e2e_p90_ms": 3.191165009047836, "peak_mem_MB": 48.4150390625, "wall_s": 51.163801193237305, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26s coco: 0/5000  median e2e 3.14 ms
+yolo26s coco: 1000/5000  median e2e 3.05 ms
+yolo26s coco: 2000/5000  median e2e 3.05 ms
+yolo26s coco: 3000/5000  median e2e 3.05 ms
+yolo26s coco: 4000/5000  median e2e 3.05 ms
+{"model": "yolo26s", "dataset": "coco", "n_images": 5000, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 3.049926999665331, "e2e_mean_ms": 8.071689222336863, "e2e_p90_ms": 3.2542899949476123, "peak_mem_MB": 71.32373046875, "wall_s": 47.45152282714844, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26m coco: 0/5000  median e2e 3.38 ms
+yolo26m coco: 1000/5000  median e2e 3.48 ms
+yolo26m coco: 2000/5000  median e2e 3.45 ms
+yolo26m coco: 3000/5000  median e2e 3.42 ms
+yolo26m coco: 4000/5000  median e2e 3.43 ms
+{"model": "yolo26m", "dataset": "coco", "n_images": 5000, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 3.446417504164856, "e2e_mean_ms": 7.687758157055941, "e2e_p90_ms": 3.7342799056204967, "peak_mem_MB": 110.99169921875, "wall_s": 45.41781258583069, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26l coco: 0/5000  median e2e 4.29 ms
+yolo26l coco: 1000/5000  median e2e 4.38 ms
+yolo26l coco: 2000/5000  median e2e 4.37 ms
+yolo26l coco: 3000/5000  median e2e 4.35 ms
+yolo26l coco: 4000/5000  median e2e 4.35 ms
+{"model": "yolo26l", "dataset": "coco", "n_images": 5000, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 4.350524999608751, "e2e_mean_ms": 8.655735424513114, "e2e_p90_ms": 4.644375102361664, "peak_mem_MB": 126.23388671875, "wall_s": 50.18947887420654, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+yolo26x coco: 0/5000  median e2e 6.47 ms
+yolo26x coco: 1000/5000  median e2e 6.66 ms
+yolo26x coco: 2000/5000  median e2e 6.64 ms
+yolo26x coco: 3000/5000  median e2e 6.64 ms
+yolo26x coco: 4000/5000  median e2e 6.63 ms
+{"model": "yolo26x", "dataset": "coco", "n_images": 5000, "conf": 0.001, "max_det": 300, "imgsz": 640, "e2e_median_ms": 6.642370994086377, "e2e_mean_ms": 10.85387686364993, "e2e_p90_ms": 7.085952200577594, "peak_mem_MB": 208.59912109375, "wall_s": 61.30478286743164, "gpu": "NVIDIA GeForce RTX 5070", "torch": "2.11.0+cu128", "cuda": "12.8", "cudnn": 91900}
+./scripts/run_coco.sh: line 7: syntax error near unexpected token `done'

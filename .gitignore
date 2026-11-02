@@ -1,0 +1,7 @@
+.venv/
+data/
+weights/
+results/dets/
+__pycache__/
+*.pyc
+report/REPORT.html

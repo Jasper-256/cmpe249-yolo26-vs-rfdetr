@@ -1,0 +1,3 @@
+rfdetr-large             Car        F1 0.823 @thr 0.399  P 0.804 R 0.843  errors {'TP': 24234, 'duplicate': 185, 'ignored': 9282, 'loc': 3556, 'confusion': 20, 'background': 2136}
+rfdetr-large             Pedestrian F1 0.536 @thr 0.803  P 0.856 R 0.390  errors {'TP': 1751, 'duplicate': 0, 'ignored': 211, 'loc': 94, 'confusion': 2, 'background': 199}
+rfdetr-large             Cyclist    F1 0.571 @thr 0.384  P 0.601 R 0.544  errors {'TP': 885, 'duplicate': 3, 'ignored': 111, 'loc': 80, 'confusion': 335, 'background': 170}

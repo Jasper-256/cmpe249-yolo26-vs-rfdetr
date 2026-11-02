@@ -1,0 +1,14 @@
+rfdetr-large           AP  56.5 AP50  75.1 AP75  61.3 APs  38.9 APm  61.1 APl  74.0 AR100  74.2
+rfdetr-medium          AP  54.6 AP50  73.5 AP75  59.0 APs  35.8 APm  59.7 APl  73.6 AR100  72.4
+rfdetr-nano            AP  48.0 AP50  67.1 AP75  51.1 APs  25.0 APm  53.1 APl  70.9 AR100  65.1
+rfdetr-small           AP  52.8 AP50  72.0 AP75  56.9 APs  31.8 APm  58.2 APl  73.0 AR100  70.4
+yolo26l                AP  53.8 AP50  70.7 AP75  58.8 APs  37.3 APm  58.0 APl  69.5 AR100  73.1
+yolo26l-nms            AP  53.9 AP50  71.0 AP75  58.8 APs  35.7 APm  58.2 APl  69.9 AR100  69.5
+yolo26m                AP  52.2 AP50  69.3 AP75  57.0 APs  35.5 APm  56.8 APl  68.3 AR100  72.1
+yolo26m-nms            AP  52.2 AP50  69.5 AP75  56.8 APs  35.5 APm  57.1 APl  68.1 AR100  68.5
+yolo26n                AP  40.1 AP50  55.6 AP75  43.5 APs  19.7 APm  44.1 APl  58.0 AR100  61.3
+yolo26n-nms            AP  40.2 AP50  55.9 AP75  43.5 APs  19.5 APm  44.2 APl  58.4 AR100  57.1
+yolo26s                AP  47.4 AP50  63.8 AP75  51.6 APs  29.4 APm  52.0 APl  64.0 AR100  68.0
+yolo26s-nms            AP  47.4 AP50  64.0 AP75  51.4 APs  29.1 APm  51.9 APl  64.2 AR100  64.0
+yolo26x                AP  56.5 AP50  73.6 AP75  61.9 APs  40.7 APm  60.7 APl  72.4 AR100  74.7
+yolo26x-nms            AP  56.5 AP50  73.7 AP75  61.7 APs  40.6 APm  61.0 APl  72.3 AR100  71.4

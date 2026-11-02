@@ -1,0 +1,3 @@
+rfdetr-nano              Car        F1 0.792 @thr 0.559  P 0.922 R 0.694  errors {'TP': 19954, 'duplicate': 55, 'ignored': 2222, 'loc': 1351, 'confusion': 12, 'background': 276}
+rfdetr-nano              Pedestrian F1 0.566 @thr 0.596  P 0.772 R 0.447  errors {'TP': 2005, 'duplicate': 4, 'ignored': 448, 'loc': 183, 'confusion': 5, 'background': 399}
+rfdetr-nano              Cyclist    F1 0.374 @thr 0.265  P 0.327 R 0.438  errors {'TP': 712, 'duplicate': 5, 'ignored': 168, 'loc': 178, 'confusion': 755, 'background': 526}

@@ -1,0 +1,3 @@
+rfdetr-medium@384x1248   Car        F1 0.732 @thr 0.344  P 0.701 R 0.765  errors {'TP': 21981, 'duplicate': 548, 'ignored': 10242, 'loc': 6116, 'confusion': 6, 'background': 2692}
+rfdetr-medium@384x1248   Pedestrian F1 0.431 @thr 0.679  P 0.793 R 0.296  errors {'TP': 1329, 'duplicate': 0, 'ignored': 219, 'loc': 151, 'confusion': 0, 'background': 195}
+rfdetr-medium@384x1248   Cyclist    F1 0.563 @thr 0.319  P 0.584 R 0.543  errors {'TP': 883, 'duplicate': 4, 'ignored': 186, 'loc': 90, 'confusion': 255, 'background': 279}
